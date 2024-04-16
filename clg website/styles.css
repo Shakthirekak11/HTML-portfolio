@@ -1,0 +1,246 @@
+body{
+    background-color:lightblue;
+    font-family:Arial, Sans-serif;
+    margin:0;
+    padding:0;
+
+}
+header{
+    background-color: #555;
+    padding:10px
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+nav ul li{
+    margin:0;
+    display:inline;
+    margin-right:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section.main ::content{
+    padding:20px;
+}
+
+footer{
+ margin:0;
+ text-align:center;
+ padding:20px;
+ margin-top:30px;
+ background-color:#555;
+ color:white;
+ font-weight:lighter;
+}
+
+.welcome
+{
+    justify-content:center;
+    padding:5px;
+}
+
+.welcome h3{
+    text-decoration-line:underline;
+    size:30px;
+    color:darkblue;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.4);
+}
+
+#welcmsg
+{
+    text-align:center;
+
+}
+
+#build
+{
+    border-radius:25px;
+    justify-content:center;
+    height: 300px;;    
+    width:30%;
+    display:inline-block;
+    margin-left:40px;
+    padding:10px;
+    background-color: cornflowerblue;
+}
+
+#playg
+{
+    border-radius:25px;
+    height:300px;
+    width:25%;
+    display:inline-block;
+    margin-left:30px;
+    padding:10px;
+    background-color: cornflowerblue;
+}
+
+#awards
+{
+    border-radius:25px;
+    height:300px;
+    width:25%;
+    display:inline-block;
+    margin-left:30px;
+    padding:10px;
+    background-color: cornflowerblue;
+}
+
+.row2
+{
+    margin-top:30px;
+    margin-left:100px;
+}
+#hostel
+{
+   
+    border-radius:25px;
+    height:300px;
+    width:40%;
+    display:inline-block;
+    margin-left:30px;
+    padding:10px;
+    background-color: cornflowerblue;
+}
+
+#gym
+{
+    border-radius:25px;
+    height:300px;
+    width:40%;
+    display:inline-block;
+    margin-left:30px;
+    padding:10px;
+    background-color: cornflowerblue;
+}
+
+#build p, #playg p, #awards p,#hostel p, #gym p{
+    text-align:center;
+    display:inline-block;
+    margin-top:20px;
+    font-weight:bold;
+
+}
+
+
+
+
+.details
+{
+    background-color: rgb(105, 117, 221);
+    margin-left:40px;
+    margin-right:40px;
+    padding:10px;
+    margin-bottom:35px;
+}
+
+.abs p
+{
+    margin-left:50px;
+    margin-right:50px;
+    justify-content: center;
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+}
+
+.course
+{
+    background-color:#cc99ff;
+    margin-left:150px;
+    margin-right:150px;
+    border-radius:50px;
+    height:950px;
+}
+
+.cs
+{
+    margin-left: 300px;
+    width:40%;
+    display:block;
+    justify-content:center;
+    text-align:center;
+    
+}
+
+#t1{
+text-shadow:0px 1px  3px #ffffff;
+}
+
+.cs img{
+    box-shadow:10px 10px 10px;
+}
+
+ button{
+    padding:10px;
+    margin-top:20px;
+    background-color:#660066;
+    color:white;
+    font-weight:300;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.ece
+{
+    margin-top:40px;
+    margin-left: 300px;
+    width:40%;
+    display:block;
+    justify-content:center;
+    text-align:center;
+    
+}
+
+.ece img{
+    box-shadow:10px 10px 10px;
+}
+
+.adm
+{
+    text-align:center;
+    font-family: "Outfit", Sans-serif;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.admform{
+    border-radius:20px;
+    background-color:#0066ff;
+    padding:40px;
+    margin:150px;
+    margin-top:40px;
+    text-align:center;
+    font-size:17px;
+    font-weight:400;
+    box-shadow:10px 10px 10px;
+}
+
+.admform label{
+    font-weight:500;
+    padding:20px;
+    margin-bottom:40px;
+}
+
+.admform input, select{
+    border-radius:13px;
+    width:20%;
+    background-color:#cce0ff;
+}
+#sub
+{
+    background-color:#000099;
+    border-width:0px;
+    font-weight:300;
+    font-size:15px;
+}
+
+    
