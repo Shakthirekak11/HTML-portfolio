@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form Validation
+        </title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <h1>Online Registration for Figma Conference</h1>
+            <div class="form">
+                <form>
+                    <label for="name">Enter your name</label>
+                    <input type="text" name="name" id="name"><br><br>
+                    <label for="email">Enter your email</label>
+                    <input type="email" name="email" id="email"><br><br>
+                    <label for="jobTitle">Enter your Job Title</label>
+                    <input type="text" name="jobTitle" id="jobTitle"><br><br>
+                    <label for="companyName">Enter your company name</label>
+                    <input type="text" name="companyName" id="companyName"><br><br>
+                    <label for="country">Select your country</label>
+                    <select name="country" id="country">
+                    </select><br><br>
+                    <label for="workshop">Choose your workshop</label>
+                    <input type="radio" name="workshop" id="uiDesign" value="UI Design">UI Design
+                    <input type="radio" name="workshop" id="uxDesign" value="UX Design">UX Design
+                    <input type="radio" name="workshop" id="wireframing" value="Wireframing">Wireframing
+                    <input type="radio" name="workshop" id="prototyping" value="Prototyping">Prototyping<br><br>
+                    <input type="checkbox" id="terms" name="terms" value="terms">
+                    <label for="terms">I have read the terms and conditions and agree to follow them.</label><br><br>
+                    <button id="submit">SUBMIT</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    <script src="./index.js"></script>
+    </body>
+</html>
