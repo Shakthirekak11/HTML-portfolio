@@ -1,0 +1,298 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+    color: #fff; 
+}
+#hiii
+{
+    font-family: 'Arial', sans-serif;
+    margin-left: 20px;
+    margin-right:20px;
+    padding: 10px;
+}
+#story
+{
+    border-radius:25px;
+    justify-content:center;
+    height: 450px;;    
+    width:30%;
+    display:inline-block;
+    margin-left:20px;
+    padding:10px;
+    background-color:#256dc4;
+}
+img{
+    height:200px;
+    width:300px;
+}
+#phil
+{
+    justify-content:center;
+    height: 450px;;    
+    width:28%;
+    display:inline-block;
+    border-radius:25px;   
+    margin-left:30px;
+    padding:10px;
+    background-color: #256dc4;
+}
+
+#vision
+{
+    border-radius:25px;
+    height:450px;
+    width:25%;
+    display:inline-block;
+    margin-left:30px;
+    padding:10px;
+    background-color:#256dc4;
+}
+
+.row2
+{
+    margin-top:30px;
+}
+#services,#commitment
+{
+    height:300px;
+    width:40%;
+    display:inline-block;
+    margin-left:50px;
+    padding:10px;
+    margin-bottom:40px;
+    
+}
+
+#story p, #phil p, #vision p,#services p, #commitment p{
+    text-align:center;
+    display:inline-block;
+    margin-top:20px;
+    font-weight:bold;
+}
+nav {
+    background-color: #555;
+    padding: 10px;
+    width:100%;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section.main-content {
+    padding: 20px;
+}
+
+footer {
+    width:100%;
+        position:absolute;
+    background-color: #555;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    margin-top: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.patient-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.patient-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #666;
+}
+
+.patient-list h4 {
+    margin: 0;
+}
+
+.patient-form form {
+    margin-top: 20px;
+}
+
+.patient-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.patient-form input[type="text"],
+.patient-form input[type="number"],
+.patient-form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.patient-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.appointment-form form {
+    margin-bottom: 30px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appointment-form input[type="date"],
+.appointment-form input[type="time"],
+.appointment-form select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.appointment-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.appointment-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.appointment-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.appointment-list h4 {
+    margin: 0;
+}
+  .hero {
+    padding: 20px;
+    text-align: center;
+  }
+  .features {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .features h2 {
+    color: #333;
+  }
+  
+  .features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .features li {
+    color: #666;
+  }
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonial h2 {
+    color: #333;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .testimonial cite {
+    font-weight: bold;
+  }
+
+section.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #d35400;
+}

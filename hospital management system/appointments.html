@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System - Appointment Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="patient.html">Patient Information</a></li>
+                <li><a href="appointments.html">Appointment Scheduler</a></li>
+                <li><a href="upcoming.html">Upcoming Appointments</a></li>
+                <li><a href="records.html">Patient Records</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Appointment Scheduler</h2>
+        <p>Schedule and manage appointments here.</p>    
+        <div class="appointment-form">
+            <h3>Schedule Appointment</h3>
+            <form>
+                <label for="patient">Patient:</label>
+                <select id="patient" name="patient" required>
+                    <option value="">Select Patient</option>
+                </select>
+                
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>                
+                <button type="submit">Schedule Appointment</button>
+            </form>
+        </div>
+        
+        <div class="appointment-list">
+            <h3>Upcoming Appointments</h3>
+            <ul>
+                <li>
+                    <h4>Stefan</h4>
+                    <p>Date: February 15, 2024</p>
+                    <p>Time: 10:00 AM</p>
+                </li>
+                <li>
+                    <h4>Matt</h4>
+                    <p>Date: February 20, 2024</p>
+                    <p>Time: 2:30 PM</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
