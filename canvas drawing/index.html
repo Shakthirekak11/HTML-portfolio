@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Canvas Drawing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>ONLINE ART GALLERY</h1>
+    <div id="colorPalette">
+        <button class="colorOption" style="background-color: red;"></button>
+        <button class="colorOption" style="background-color: blue;"></button>
+        <button class="colorOption" style="background-color: green;"></button>
+        <button class="colorOption" style="background-color: yellow;"></button>
+        <button class="colorOption" style="background-color: black;"></button>
+        <button class="colorOption" style="background-color: white;"></button>
+        <button class="colorOption" style="background-color: purple;"></button>
+        <button class="colorOption" style="background-color: orange;"></button>
+        <button class="colorOption" style="background-color: pink;"></button>
+        <button class="colorOption" style="background-color: brown;"></button>
+        <button class="colorOption" style="background-color: silver;"></button>
+        <button class="colorOption" style="background-color: gold;"></button>
+    </div>
+    <div id="brushSizes">
+        <button class="brush" data-size="5">Small</button>
+        <button class="brush" data-size="10">Medium</button>
+        <button class="brush" data-size="20">Large</button>
+    </div>
+    <canvas id="drawingCanvas" width="800" height="600" ></canvas>
+<br>
+<br>
+    <button id="undo">Undo</button>
+    <button id="redo">Redo</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
