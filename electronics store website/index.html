@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Color Picker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .color-picker {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .palette {
+            display: flex;
+            flex-wrap: wrap;
+            width: 200px;
+        }
+
+        .palette .color {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            cursor: pointer;
+            position: relative; 
+        }
+
+        .palette .color::after {
+            content: attr(data-color-name); /* Displays the color name */
+            position: absolute;
+            bottom: -10px; 
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 8px;
+            color: #333;
+        }
+
+        .preview {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #selectedColor {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000;
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="color-picker">
+        <div class="palette">
+
+        </div>
+        <div class="preview">
+            <p>Selected Color:</p>
+            <div id="selectedColor" style="background-color: #ffffff;"></div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const palette = document.querySelector('.palette');
+            const colors = [
+                {color: '#FF0000', name: 'Red'},
+                {color: '#00FF00', name: 'Green'},
+                {color: '#0000FF', name: 'Blue'},
+                {color: '#FFFF00', name: 'Yellow'},
+                {color: '#FF00FF', name: 'Magenta'},
+                {color: '#00FFFF', name: 'Cyan'},
+                {color: '#808080', name: 'Gray'},
+                {color: '#C0C0C0', name: 'Silver'},
+                {color: '#A0A0A0', name: 'Dark Gray'},
+                {color: '#606060', name: 'Dim Gray'}
+            ];
+            const selectedColor = document.getElementById('selectedColor');
+
+            colors.forEach(color => {
+                const colorDiv = document.createElement('div');
+                colorDiv.classList.add('color');
+                colorDiv.style.backgroundColor = color.color;
+                colorDiv.setAttribute('data-color-name', color.name); 
+                colorDiv.addEventListener('click', function() {
+                    selectedColor.style.backgroundColor = color.color;
+                });
+                palette.appendChild(colorDiv);
+            });
+        });
+    </script>
+</body>
+</html>
+
